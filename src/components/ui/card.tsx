@@ -40,6 +40,7 @@ const Card: React.FC<CardProps> = ({
     <>
       {hoverEffect && <style>{hoverStyles}</style>}
       <div 
+        {...props}   {/* ✅ THIS LINE FIXES NETLIFY */}
         className={`card-component ${className}`} 
         style={baseStyles}
       >
