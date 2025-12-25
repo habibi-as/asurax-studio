@@ -1,0 +1,45 @@
+/* About Page Specific Styles */
+
+.about-section {
+  margin-bottom: 80px;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: var(--primary-accent);
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Skill Card Customizations */
+.skill-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.skill-card p {
+  font-size: 0.95rem;
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
